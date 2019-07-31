@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="148dp"
+        android:layout_height="111dp"
+        android:id="@+id/select_trip_city_image"
+        android:contentDescription="@null"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="City Name"
+        android:id="@+id/select_trip_city_text"
+        android:layout_alignTop="@+id/select_trip_city_image"
+        android:layout_toEndOf="@+id/select_trip_city_image"
+        android:layout_marginStart="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Start-End Date"
+        android:id="@+id/select_trip_date_text"
+        android:layout_alignBottom="@+id/select_trip_city_image"
+        android:layout_alignStart="@+id/select_trip_city_text" />
+
+</RelativeLayout>

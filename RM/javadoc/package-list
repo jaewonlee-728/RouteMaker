@@ -1,0 +1,8 @@
+com.example.oose.routemaker
+com.example.oose.routemaker.API
+com.example.oose.routemaker.Concrete
+com.example.oose.routemaker.CreateTrip
+com.example.oose.routemaker.CurrentOrPastTrips
+com.example.oose.routemaker.GoogleMapsActivities
+com.example.oose.routemaker.Logistics
+com.example.oose.routemaker.TSPSolver

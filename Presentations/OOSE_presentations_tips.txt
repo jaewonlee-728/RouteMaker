@@ -1,0 +1,15 @@
+Presentations
+
+: warm-up for demo
+: as long as we're organized, we'll get a good grade
+: who speaks in what order, who talks about what topic
+: don't interrupt each other
+: show up to your assigned room for the whole time
+: ask questions, give comments (might give bonus points)
+: no code required (optional)
+
+
+Demo
+: 60% of the project grade is on the code and demo presentation
+: we want to see code in the final demo
+: 

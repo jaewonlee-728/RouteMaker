@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_schedule_site_name"
+        android:layout_alignParentTop="true" >
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_schedule_event_hour"
+        android:layout_below="@+id/edit_schedule_site_name"
+        android:layout_alignLeft="@+id/edit_schedule_site_name" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_schedule_event_duration"
+        android:layout_below="@+id/edit_schedule_event_hour"
+        android:layout_alignLeft="@+id/edit_schedule_event_hour"/>
+
+    <!--    <TextView
+            android:id="@+id/site_link"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:layout_below="@+id/edit_schedule_site_hour"
+            android:layout_alignLeft="@+id/edit_schedule_site_hour" />-->
+
+</RelativeLayout>

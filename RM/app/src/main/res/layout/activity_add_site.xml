@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".CreateTrip.AddSiteActivity">
+
+    <include
+        layout="@layout/toolbar_default"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <RelativeLayout
+        android:id="@+id/content_frame_select_sites"
+        android:baselineAligned="false"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="?attr/actionBarSize"
+        tools:context=".CreateTrip.AddSiteActivity">
+
+        <fragment
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:name="com.example.oose.routemaker.CreateTrip.AddSiteCategoryFragment"
+            android:id="@+id/add_site_category_fragment"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="40dp"
+            android:orientation="vertical"
+            android:layout_below="@+id/add_site_category_fragment">
+
+            <fragment
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:name="com.example.oose.routemaker.CreateTrip.SelectSiteSiteFragment"
+                android:id="@+id/add_site_site_fragment"
+                android:choiceMode="multipleChoice"
+                android:layout_weight="2"
+                class="com.example.oose.routemaker.CreateTrip.AddSiteSiteFragment" />
+
+            <fragment
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:name="com.google.android.gms.maps.SupportMapFragment"
+                android:id="@+id/add_site_map_fragment"
+                android:layout_weight="3" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:background="@color/colorPrimary">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/add_button_message"
+                android:background="@drawable/button_general"
+                android:id="@+id/button_add_site"
+                android:layout_alignParentEnd="true"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

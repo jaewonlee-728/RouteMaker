@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout_selectCity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- As the main content view, the view below consumes the entire
+         space available using match_parent in both dimensions. -->
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        tools:context=".CreateTrip.SelectCityActivity">
+
+        <include
+            layout="@layout/toolbar_default"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="?attr/actionBarSize">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_city_newyork"
+        android:layout_marginTop="59dp"
+        android:text="@string/newyork"
+        android:background="@drawable/bg_button"
+        android:layout_below="@+id/textView3"
+        android:layout_alignRight="@+id/button_city_seattle"
+        android:layout_alignEnd="@+id/button_city_seattle" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/miami"
+        android:layout_marginLeft="15dp"
+        android:background="@drawable/bg_button"
+        android:id="@+id/button_city_miami"
+        android:layout_alignTop="@+id/button_city_sanfrancisco"
+        android:layout_toRightOf="@+id/button_city_dc"
+        android:layout_toEndOf="@+id/button_city_dc" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/baltimore"
+        android:id="@+id/button_city_baltimore"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/bg_button"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignTop="@+id/button_city_losangeles"
+        android:layout_toLeftOf="@+id/button_city_dc"
+        android:layout_toStartOf="@+id/button_city_dc" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/seattle"
+        android:id="@+id/button_city_seattle"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/bg_button"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignTop="@+id/button_city_sanfrancisco"
+        android:layout_toLeftOf="@+id/button_city_dc"
+        android:layout_toStartOf="@+id/button_city_dc" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/boston"
+        android:background="@drawable/bg_button"
+        android:layout_marginBottom="15dp"
+        android:id="@+id/button_city_boston"
+        android:layout_above="@+id/button_city_chicago"
+        android:layout_alignLeft="@+id/button_city_chicago"
+        android:layout_alignStart="@+id/button_city_chicago" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dc"
+        android:id="@+id/button_city_dc"
+        android:background="@drawable/bg_button"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignTop="@+id/button_city_newyork"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_button"
+        android:text="@string/sanfrancisco"
+        android:layout_marginTop="15dp"
+        android:id="@+id/button_city_sanfrancisco"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/button_city_losangeles"
+        android:layout_toLeftOf="@+id/button_city_miami"
+        android:layout_toStartOf="@+id/button_city_miami"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/losangeles"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/bg_button"
+        android:id="@+id/button_city_losangeles"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/button_city_dc"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/chicago"
+        android:id="@+id/button_city_chicago"
+        android:background="@drawable/bg_button"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignTop="@+id/button_city_losangeles"
+        android:layout_alignLeft="@+id/button_city_miami"
+        android:layout_alignStart="@+id/button_city_miami" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/city_choice_message"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/toolbar_default"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/continue_button_message"
+        android:id="@+id/button_continue"
+        android:layout_marginTop="34dp"
+        android:background="@drawable/button_general"
+        android:layout_below="@+id/button_city_miami"
+        android:layout_alignLeft="@+id/button_city_miami"
+        android:layout_alignStart="@+id/button_city_miami" />
+
+
+        </RelativeLayout>
+
+
+        </RelativeLayout>
+
+    <!-- Side navigation drawer UI -->
+    <include
+        layout="@layout/drawer_view"
+        android:id="@+id/left_drawer_selectCity"
+        android:layout_width="200dp"
+        android:layout_height="fill_parent"
+        android:layout_gravity="start"
+        android:layout_marginTop="?attr/actionBarSize"/>
+
+</android.support.v4.widget.DrawerLayout>

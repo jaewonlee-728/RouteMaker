@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<HorizontalScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:scrollbars="none"
+    android:background="#86999C">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Food  "
+            android:id="@+id/add_category_1_button"
+            android:background="@drawable/category_button"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Landmarks"
+            android:id="@+id/add_category_2_button"
+            android:background="@drawable/category_button"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/add_category_1_button"
+            android:layout_toEndOf="@+id/add_category_1_button" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Museums"
+            android:id="@+id/add_category_3_button"
+            android:background="@drawable/category_button"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/add_category_2_button"
+            android:layout_toEndOf="@+id/add_category_2_button" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Art  "
+            android:id="@+id/add_category_4_button"
+            android:background="@drawable/category_button"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/add_category_3_button"
+            android:layout_toEndOf="@+id/add_category_3_button" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Entertainment"
+            android:id="@+id/add_category_5_button"
+            android:background="@drawable/category_button"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/add_category_4_button"
+            android:layout_toEndOf="@+id/add_category_4_button" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Outdoors"
+            android:id="@+id/add_category_6_button"
+            android:background="@drawable/category_button"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/add_category_5_button"
+            android:layout_toEndOf="@+id/add_category_5_button" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Shopping"
+            android:id="@+id/add_category_7_button"
+            android:background="@drawable/category_button"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/add_category_6_button"
+            android:layout_toEndOf="@+id/add_category_6_button" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Night Life"
+            android:id="@+id/add_category_8_button"
+            android:background="@drawable/category_button"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/add_category_7_button"
+            android:layout_toEndOf="@+id/add_category_7_button" />
+
+    </RelativeLayout>
+
+</HorizontalScrollView>

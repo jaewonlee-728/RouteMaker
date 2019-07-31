@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.oose.routemaker">
+
+    <!--
+     The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+     Google Maps Android API v2, but you must specify either coarse or fine
+     location permissions for the 'MyLocation' functionality.
+-->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".Logistics.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:label="@string/title_activity_maps"
+            android:name=".GoogleMapsActivities.GoogleMapsRouteActivity"
+            android:theme="@style/AppTheme.CustomTheme"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:label="@string/title_activity_maps"
+            android:name=".GoogleMapsActivities.GoogleMapsSitesActivity">
+        </activity>
+
+        <activity
+            android:label ="@string/app_name"
+            android:name=".Logistics.SignupActivity"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:label="@string/app_name"
+            android:name=".NewsFeedActivity"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:label="@string/app_name"
+            android:name=".Logistics.SettingActivity"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:label="@string/app_name"
+            android:name=".CreateTrip.SelectCityActivity"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:label="@string/app_name"
+            android:name=".CreateTrip.SelectDateTimeActivity"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:label="@string/app_name"
+            android:name=".CreateTrip.SelectSiteActivity"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:label="@string/app_name"
+            android:name=".CreateTrip.EditScheduleActivity"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:label="@string/app_name"
+            android:name=".CreateTrip.EditScheduleInfoActivity"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:label="@string/app_name"
+            android:name=".CreateTrip.CreateConfirmActivity"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:label="@string/app_name"
+            android:name=".CreateTrip.AddSiteActivity"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:label ="@string/app_name"
+            android:name=".CreateTrip.AddEventActivity"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:label="@string/app_name"
+            android:name=".CreateTrip.EditEventActivity"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:label ="@string/app_name"
+            android:name=".CurrentOrPastTrips.SelectCurrentOrPastTripActivity"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:name=".Pop" android:theme="@style/AppTheme.CustomTheme"></activity>
+
+        <!-- ATTENTION: This was auto-generated to add Google Play services to your project for
+             App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+    </application>
+
+</manifest>

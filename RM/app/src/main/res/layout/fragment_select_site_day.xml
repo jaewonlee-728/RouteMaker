@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<HorizontalScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:scrollbars="none"
+    android:background="#86999C">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DAY 1"
+            android:background="@drawable/day_button"
+            android:id="@+id/select_day_1_button"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DAY 2"
+            android:id="@+id/select_day_2_button"
+            android:background="@drawable/day_button"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/select_day_1_button"
+            android:layout_toEndOf="@+id/select_day_1_button"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DAY 3"
+            android:id="@+id/select_day_3_button"
+            android:background="@drawable/day_button"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/select_day_2_button"
+            android:layout_toEndOf="@+id/select_day_2_button"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DAY 4"
+            android:id="@+id/select_day_4_button"
+            android:background="@drawable/day_button"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/select_day_3_button"
+            android:layout_toEndOf="@+id/select_day_3_button"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Day 5"
+            android:id="@+id/select_day_5_button"
+            android:background="@drawable/day_button"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/select_day_4_button"
+            android:layout_toEndOf="@+id/select_day_4_button"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DAY 6"
+            android:id="@+id/select_day_6_button"
+            android:background="@drawable/day_button"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/select_day_5_button"
+            android:layout_toEndOf="@+id/select_day_5_button"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DAY 7"
+            android:id="@+id/select_day_7_button"
+            android:background="@drawable/day_button"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/select_day_6_button"
+            android:layout_toEndOf="@+id/select_day_6_button"/>
+
+        </RelativeLayout>
+
+    </HorizontalScrollView>

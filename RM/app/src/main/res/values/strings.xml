@@ -1,0 +1,77 @@
+<resources>
+
+    <string name="app_name">RouteMaker</string>
+    <string name="action_settings">Settings</string>
+    <string name="welcome_message">Welcome to RouteMaker!</string>
+    <string name="main_sign_up_message">Don\'t have an account?</string>
+    <string name="login_button_message">Log In</string>
+    <string name="signup_button_message">Sign Up</string>
+    <string name="city_choice_message">Please choose your city</string>
+    <string name="email">E-mail</string>
+    <string name="nickname">Nickname</string>
+    <string name="password">Password</string>
+    <string name="password_confirm">Re-type Password</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="age_group">Age Group</string>
+    <string name="preference">Preferences</string>
+    <string name="twenties">20s or Below</string>
+    <string name="thirties">30s</string>
+    <string name="forties">40s</string>
+    <string name="fifties">50s</string>
+    <string name="sixties">60s or Above</string>
+    <string name="museum">Museums</string>
+    <string name="art">Art</string>
+    <string name="night_life">Night Life</string>
+    <string name="entertainment">Entertainment</string>
+    <string name="food">Food</string>
+    <string name="landmark">Landmarks</string>
+    <string name="outdoor">Outdoors</string>
+    <string name="shopping">Shopping</string>
+    <string name="register_button_message">Register</string>
+    <string name="confirm_message">Confirm</string>
+    <string-array name="drawer_array">
+        <item>Main</item>
+        <item>New Trip</item>
+        <item>Current Trips</item>
+        <item>Past Trips</item>
+        <item>Settings</item>
+    </string-array>
+    <string name="select_date_time">Please Select Date and Time</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="action_websearch">Web search</string>
+    <string name="app_not_available">Sorry, there\'s no web browser available</string>
+    <string name="newyork">New York</string>
+    <string name="dc">Washington DC</string>
+    <string name="boston">Boston</string>
+    <string name="sanfrancisco">San Francisco</string>
+    <string name="losangeles">Los Angeles</string>
+    <string name="chicago">Chicago</string>
+    <string name="seattle">Seattle</string>
+    <string name="baltimore">Baltimore</string>
+    <string name="miami">Miami</string>
+    <string name="continue_button_message">Continue</string>
+    <string name="google_maps_key">AIzaSyDMmULaIRet4_QC3ky3p1OIhI70YjAjwCw</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="view_map_message">View Map</string>
+    <string name="finalize_message">OK</string>
+    <string name="drive_button_message">Drive</string>
+    <string name="walk_button_message">Walk</string>
+    <string name="bike_button_message">Bike</string>
+    <string name="transit_button_message">Transit</string>
+    <string name="add_button_message">Add</string>
+    <string name="email_button_message">Send to my e-mail</string>
+    <string name="return_button_message">Return to main</string>
+    <string name="schedule_created_message">Your schedule has been created!</string>
+    <string name="hello_message">Welcome to RouteMaker, </string>
+    <string name="featured_city_message">Why not travel to </string>
+    <string name="delete_button_message">Delete</string>
+    <string name="edit_button_message">Edit</string>
+    <string name="ok_message">OK</string>
+    <string name="start_time_message">Start Time</string>
+    <string name="end_date_message">End Time</string>
+    <string name="start_date_message">Start Time</string>
+    <string name="select_trip_message">These are your current trips.</string>
+    <string name="create_event">Create</string>
+</resources>
